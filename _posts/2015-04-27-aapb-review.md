@@ -8,9 +8,9 @@ and others that could be done better.
 
 <!--more-->
 
-# Overview
+## Overview
 
-## Tools
+### Tools
 
 - *Rails/Blacklight/Solr* because we're familiar with that stack.
 - *AWS OpsWorks* ... hopefully not just because we're unfamiliar with it.
@@ -18,19 +18,19 @@ and others that could be done better.
 - *GitHub* for all contributors. mixed results.
 - existing API for source data.
 
-## Design Choices
+### Design Choices
 
 - Read-only: not the place to edit data
 - Read-only: no user session stuff
 - Read-only: no web admin: all config is checked in
 - ActiveRecord not used
 
-## Data Flow
+### Data Flow
 
 ![data flow diagram](https://cdn.rawgit.com/WGBH/AAPB2/master/docs/aapb-data-flow.svg?v2)
 
 
-# Download / Clean / Ingest
+## Download / Clean / Ingest
 
 Ingest tools grew slowly: Now there's one main script, but earlier
 each of the sub-scripts had its own `if __FILE__ = $0`.
@@ -54,6 +54,7 @@ wouldn't actually do anything for us.
   - Frequency of commits makes the biggest different on ingest speed.
 
 All together: [download_clean_ingest.rb](https://github.com/WGBH/AAPB2/blob/master/scripts/download_clean_ingest.rb)
+
 ```
   USAGE: download_clean_ingest.rb
            [--batch-commit] [--same-mount] [--stdout-log]
@@ -96,9 +97,10 @@ All together: [download_clean_ingest.rb](https://github.com/WGBH/AAPB2/blob/mast
       and this is easier than xargs.)
 ```
 
-# The Site
+## The Site
 
 Not many [routes](https://github.com/WGBH/AAPB2/blob/master/config/routes.rb):
+
 - `catalog`: ([model](https://github.com/WGBH/AAPB2/blob/master/app/models/pb_core.rb), 
   [controller](https://github.com/WGBH/AAPB2/blob/master/app/controllers/catalog_controller.rb))
   Heavy lifting done by Blacklight.
@@ -111,11 +113,11 @@ Not many [routes](https://github.com/WGBH/AAPB2/blob/master/config/routes.rb):
 - `override`: ([controller]) Static content is checked in as markdown. (Non-technical librarian has been
   maintaining these and making PRs: it has worked well.)
 
-# Testing
+## Testing
 
 Good coverage, but perhaps too brittle?
 
-# Java-isms
+## Java-isms
 
 - Discovered `singleton` late in the game: I should use it more widely.
 - Subclassing to add behavior: 
@@ -128,12 +130,12 @@ Good coverage, but perhaps too brittle?
   [use](https://github.com/WGBH/AAPB2/blob/master/scripts/download_clean_ingest.rb#L170):
   There might be a better idiom, but I wanted to reclassify exceptions at a middle-level,
   but retain the original stack trace at the top. This does that.
-- Inner classes: [Ci actions](https://github.com/WGBH/AAPB2/blob/master/scripts/ci/ci.rb#L50)
+- Inner classes: [Ci actions](https://github.com/WGBH/AAPB2/blob/master/scripts/ci/ci.rb#L50):
   "Inner classes" in Ruby are just namespacing, unlike Java where they get access to the containing instance.
   Since I have to pass in the "container" by hand, this organization doesn't make much sense.
 
 
-# Things that got dropped along the way.
+## Things that got dropped along the way.
 
 - Organization config was originally in an Excel XML document,
   just because that's what it was being maintained in. That was 
