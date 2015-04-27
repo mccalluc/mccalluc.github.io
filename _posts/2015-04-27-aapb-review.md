@@ -23,6 +23,7 @@ and others that could be done better.
 - Read-only: not the place to edit data
 - Read-only: no user session stuff
 - Read-only: no web admin: all config is checked in
+- ActiveRecord not used
 
 ## Data Flow
 
@@ -52,9 +53,8 @@ wouldn't actually do anything for us.
 - [Ingest](https://github.com/WGBH/AAPB2/blob/master/scripts/lib/pb_core_ingester.rb):
   - Frequency of commits makes the biggest different on ingest speed.
 
-[`download_clean_ingest.rb`](https://github.com/WGBH/AAPB2/blob/master/scripts/download_clean_ingest.rb)
+All together: [download_clean_ingest.rb](https://github.com/WGBH/AAPB2/blob/master/scripts/download_clean_ingest.rb)
 ```
-$ ruby scripts/download_clean_ingest.rb
   USAGE: download_clean_ingest.rb
            [--batch-commit] [--same-mount] [--stdout-log]
            [--just-reindex] [--skip-sitemap]
@@ -95,3 +95,56 @@ $ ruby scripts/download_clean_ingest.rb
       could suffice in many cases, for large directories it might not work,
       and this is easier than xargs.)
 ```
+
+# The Site
+
+Not many [routes](https://github.com/WGBH/AAPB2/blob/master/config/routes.rb):
+- `catalog`: ([model](https://github.com/WGBH/AAPB2/blob/master/app/models/pb_core.rb), 
+  [controller](https://github.com/WGBH/AAPB2/blob/master/app/controllers/catalog_controller.rb))
+  Heavy lifting done by Blacklight.
+- `organizations`: ([model](https://github.com/WGBH/AAPB2/blob/master/app/models/organization.rb), 
+  [controller](https://github.com/WGBH/AAPB2/blob/master/app/controllers/organizations_controller.rb))
+  Might have used ActiveRecord, but loading from 
+  ([config](https://github.com/WGBH/AAPB2/blob/master/config/organizations.yml)) works.
+- `media`: ([controller]) For video, page renders with `/media/...` URL: If requested, hits the Sony API,
+  and then returns a redirect to the temp URL
+- `override`: ([controller]) Static content is checked in as markdown. (Non-technical librarian has been
+  maintaining these and making PRs: it has worked well.)
+
+# Testing
+
+Good coverage, but perhaps too brittle?
+
+# Java-isms
+
+- Discovered `singleton` late in the game: I should use it more widely.
+- Subclassing to add behavior: 
+  [`class ValidatedPBCore < PBCore`](https://github.com/WGBH/AAPB2/blob/master/app/models/validated_pb_core.rb)
+  and
+  [`class Ci < CiCore` and `class Detailer < CiClient`](https://github.com/WGBH/AAPB2/blob/master/scripts/ci/ci.rb):
+  Not *bad*, but not necessary, either.
+- Exception chaining: 
+  [definitions](https://github.com/WGBH/AAPB2/blob/master/scripts/lib/pb_core_ingester.rb#L108),
+  [use](https://github.com/WGBH/AAPB2/blob/master/scripts/download_clean_ingest.rb#L170):
+  There might be a better idiom, but I wanted to reclassify exceptions at a middle-level,
+  but retain the original stack trace at the top. This does that.
+- Inner classes: [Ci actions](https://github.com/WGBH/AAPB2/blob/master/scripts/ci/ci.rb#L50)
+  "Inner classes" in Ruby are just namespacing, unlike Java where they get access to the containing instance.
+  Since I have to pass in the "container" by hand, this organization doesn't make much sense.
+
+
+# Things that got dropped along the way.
+
+- Organization config was originally in an Excel XML document,
+  just because that's what it was being maintained in. That was 
+  workable, but this is much more readable
+- Organization text had essentially been stored in a homebrewed
+  markdown-light: Much better to use the real thing.
+- Sub-sampling during ingest was dropped once we had ingested
+  everything... but if you were to start with a new, messy data source,
+  you'd want it back.
+- Each module in the ingest pipeline used to be callable on its own,
+  and they were chained together in bash. All those `if __FILE__ = $0`
+  clauses were not as well tested as the internal interfaces. 
+- In the XML cleanup, folks wanted reports of what was changed in
+  each document... but no one has ever looked at it. Should remove.
