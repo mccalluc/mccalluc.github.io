@@ -21,12 +21,14 @@ and others that could be done better.
 ### Design Choices
 
 Keep it simple!:
+
 - Read-only: not the place to edit data
 - Read-only: no user session stuff
 - Read-only: no web admin: all config is checked in
 - ActiveRecord not used
 
 Keep it simple?:
+
 - Blacklight provides a wrapper so you don't need to write XPath... 
   but [I like XPath](https://github.com/WGBH/AAPB2/blob/master/app/models/pb_core.rb).
 - Blacklight provides dynamic Solr fields so types can be infered from name suffixes...
@@ -137,6 +139,7 @@ Not many [routes](https://github.com/WGBH/AAPB2/blob/master/config/routes.rb):
   - Links don't need to be checked with every push.
 
 Interesting bits:
+
 - In several places assertions are collected in an array which we iterate over: Concise, and maintainable,
   but no way to rerun just one failure. 
   [catalog_spec](https://github.com/WGBH/AAPB2/blob/master/spec/features/catalog_spec.rb#L83); 
