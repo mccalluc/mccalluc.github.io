@@ -55,7 +55,7 @@ wouldn't actually do anything for us.
 
 All together: [download_clean_ingest.rb](https://github.com/WGBH/AAPB2/blob/master/scripts/download_clean_ingest.rb)
 
-```
+~~~
   USAGE: download_clean_ingest.rb
            [--batch-commit] [--same-mount] [--stdout-log]
            [--just-reindex] [--skip-sitemap]
@@ -95,22 +95,22 @@ All together: [download_clean_ingest.rb](https://github.com/WGBH/AAPB2/blob/mast
     --dirs: Clean and ingest the given directories. (While "--files dir/*"
       could suffice in many cases, for large directories it might not work,
       and this is easier than xargs.)
-```
+~~~
 
 ## The Site
 
 Not many [routes](https://github.com/WGBH/AAPB2/blob/master/config/routes.rb):
 
-- `catalog`: ([model](https://github.com/WGBH/AAPB2/blob/master/app/models/pb_core.rb), 
+- catalog: ([model](https://github.com/WGBH/AAPB2/blob/master/app/models/pb_core.rb), 
   [controller](https://github.com/WGBH/AAPB2/blob/master/app/controllers/catalog_controller.rb))
   Heavy lifting done by Blacklight.
-- `organizations`: ([model](https://github.com/WGBH/AAPB2/blob/master/app/models/organization.rb), 
+- organizations: ([model](https://github.com/WGBH/AAPB2/blob/master/app/models/organization.rb), 
   [controller](https://github.com/WGBH/AAPB2/blob/master/app/controllers/organizations_controller.rb))
   Might have used ActiveRecord, but loading from 
   ([config](https://github.com/WGBH/AAPB2/blob/master/config/organizations.yml)) works.
-- `media`: ([controller]) For video, page renders with `/media/...` URL: If requested, hits the Sony API,
+- media: ([controller](https://github.com/WGBH/AAPB2/blob/master/app/controllers/media_controller.rb)) For video, page renders with `/media/...` URL: If requested, hits the Sony API,
   and then returns a redirect to the temp URL
-- `override`: ([controller]) Static content is checked in as markdown. (Non-technical librarian has been
+- override: ([controller](https://github.com/WGBH/AAPB2/blob/master/app/controllers/override_controller.rb)) Static content is checked in as markdown. (Non-technical librarian has been
   maintaining these and making PRs: it has worked well.)
 
 ## Testing
@@ -139,9 +139,9 @@ Good coverage, but perhaps too brittle?
 
 - Organization config was originally in an Excel XML document,
   just because that's what it was being maintained in. That was 
-  workable, but this is much more readable
+  workable, but yaml is much more readable.
 - Organization text had essentially been stored in a homebrewed
-  markdown-light: Much better to use the real thing.
+  markdown-lite: Much better to use the real thing.
 - Sub-sampling during ingest was dropped once we had ingested
   everything... but if you were to start with a new, messy data source,
   you'd want it back.
