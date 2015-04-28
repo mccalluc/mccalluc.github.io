@@ -3,7 +3,7 @@ layout: default
 title: AAPB Review
 ---
 
-A few things I think are done well in the AAPB site,
+A few things I think are done well on the [AAPB](http://americanarchive.org/) site,
 and others that could be done better.
 
 <!--more-->
@@ -20,10 +20,21 @@ and others that could be done better.
 
 ### Design Choices
 
+Keep it simple!:
 - Read-only: not the place to edit data
 - Read-only: no user session stuff
 - Read-only: no web admin: all config is checked in
 - ActiveRecord not used
+
+Keep it simple?:
+- Blacklight provides a wrapper so you don't need to write XPath... 
+  but [I like XPath](https://github.com/WGBH/AAPB2/blob/master/app/models/pb_core.rb).
+- Blacklight provides dynamic Solr fields so types can be infered from name suffixes...
+  but it prefer my configuration in [one place](https://github.com/WGBH/AAPB2/blob/master/jetty/solr/blacklight-core/conf/schema.xml#L485),
+  rather than scattered across the code.
+- Storing entire XML document in solr, rather than just the fields for display.
+  Storage is cheap, reindexing is expensive, and people change their minds.
+
 
 ### Data Flow
 
@@ -36,9 +47,9 @@ Ingest tools grew slowly: Now there's one main script, but earlier
 each of the sub-scripts had its own `if __FILE__ = $0`.
 
 The source data was really messy: On the first pass just got every 10000th 
-record, fixed those bugs, added fixtures, then every 1000th, ... Thought about
-sending these cleaned versions back upstream, but that would be risky, and 
-wouldn't actually do anything for us.
+record, fixed those bugs, added [fixtures](https://github.com/WGBH/AAPB2/tree/master/spec/fixtures/pbcore),
+then every 1000th, ... Thought about sending these cleaned versions back upstream, 
+but that would be risky, and wouldn't actually do anything we need.
 
 - [Download](https://github.com/WGBH/AAPB2/blob/master/scripts/lib/downloader.rb):
   - At one point, processed the files as they were downloaded,
@@ -50,10 +61,14 @@ wouldn't actually do anything for us.
   - and [map vocabularies](https://github.com/WGBH/AAPB2/blob/master/app/models/vocab_map.rb),
   - and put elements in canonical order by attribute value.
   - (Display order of repeating elements determined by XML order.)
+- [Validate](https://github.com/WGBH/AAPB2/blob/master/app/models/validated_pb_core.rb)
+  - Confirm schema conformance,
+  - and hit each method.
 - [Ingest](https://github.com/WGBH/AAPB2/blob/master/scripts/lib/pb_core_ingester.rb):
+  - Fields for indexing must be specified.
   - Frequency of commits makes the biggest different on ingest speed.
 
-All together: [download_clean_ingest.rb](https://github.com/WGBH/AAPB2/blob/master/scripts/download_clean_ingest.rb)
+All together now: [download_clean_ingest.rb](https://github.com/WGBH/AAPB2/blob/master/scripts/download_clean_ingest.rb)
 
 ~~~
   USAGE: download_clean_ingest.rb
@@ -107,7 +122,7 @@ Not many [routes](https://github.com/WGBH/AAPB2/blob/master/config/routes.rb):
 - organizations: ([model](https://github.com/WGBH/AAPB2/blob/master/app/models/organization.rb), 
   [controller](https://github.com/WGBH/AAPB2/blob/master/app/controllers/organizations_controller.rb))
   Might have used ActiveRecord, but loading from 
-  ([config](https://github.com/WGBH/AAPB2/blob/master/config/organizations.yml)) works.
+  [config](https://github.com/WGBH/AAPB2/blob/master/config/organizations.yml) works.
 - media: ([controller](https://github.com/WGBH/AAPB2/blob/master/app/controllers/media_controller.rb)) For video, page renders with `/media/...` URL: If requested, hits the Sony API,
   and then returns a redirect to the temp URL
 - override: ([controller](https://github.com/WGBH/AAPB2/blob/master/app/controllers/override_controller.rb)) Static content is checked in as markdown. (Non-technical librarian has been
@@ -115,16 +130,24 @@ Not many [routes](https://github.com/WGBH/AAPB2/blob/master/config/routes.rb):
 
 ## Testing
 
-Good coverage, but perhaps too brittle?
+- Good coverage, but perhaps too brittle?
+- [Travis](https://travis-ci.org/WGBH/AAPB2) doesn't check everything:
+  - Ci API requires key.
+  - AMS Downloads can be unreasonably slow.
+  - Links don't need to be checked with every push.
+
+Interesting bits:
+- In several places assertions are collected in an array which we iterate over: Concise, and maintainable,
+  but no way to rerun just one failure. 
+  [catalog_spec](https://github.com/WGBH/AAPB2/blob/master/spec/features/catalog_spec.rb#L83); 
+  [pb_core_spec](https://github.com/WGBH/AAPB2/blob/master/spec/models/pb_core_spec.rb#L57);
+  [override_spec](https://github.com/WGBH/AAPB2/blob/master/spec/features/override_spec.rb)
+- Static content is checked in, rather than having a separate CMS, so links and xml syntax can be checked.
+- Ingest script has both unit tests for the internals, and one test that just looks at stdout at the 
+  [top level](https://github.com/WGBH/AAPB2/blob/master/spec/scripts/download_clean_ingest_spec.rb).
 
 ## Java-isms
 
-- Discovered `singleton` late in the game: I should use it more widely.
-- Subclassing to add behavior: 
-  [`class ValidatedPBCore < PBCore`](https://github.com/WGBH/AAPB2/blob/master/app/models/validated_pb_core.rb)
-  and
-  [`class Ci < CiCore` and `class Detailer < CiClient`](https://github.com/WGBH/AAPB2/blob/master/scripts/ci/ci.rb):
-  Not *bad*, but not necessary, either.
 - Exception chaining: 
   [definitions](https://github.com/WGBH/AAPB2/blob/master/scripts/lib/pb_core_ingester.rb#L108),
   [use](https://github.com/WGBH/AAPB2/blob/master/scripts/download_clean_ingest.rb#L170):
@@ -133,7 +156,12 @@ Good coverage, but perhaps too brittle?
 - Inner classes: [Ci actions](https://github.com/WGBH/AAPB2/blob/master/scripts/ci/ci.rb#L50):
   "Inner classes" in Ruby are just namespacing, unlike Java where they get access to the containing instance.
   Since I have to pass in the "container" by hand, this organization doesn't make much sense.
-
+- Discovered `singleton` late in the game: I should use it more widely.
+- Subclassing to add behavior: 
+  [`class ValidatedPBCore < PBCore`](https://github.com/WGBH/AAPB2/blob/master/app/models/validated_pb_core.rb)
+  and
+  [`class Ci < CiCore` and `class Detailer < CiClient`](https://github.com/WGBH/AAPB2/blob/master/scripts/ci/ci.rb):
+  Not *bad*, but not necessary, either.
 
 ## Things that got dropped along the way.
 
