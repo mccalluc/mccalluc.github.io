@@ -3,13 +3,11 @@ layout: default
 title: Chuck McCallum
 ---
 
-# Chuck McCallum
-
 ## Code Samples
 
-- Ruby: https://github.com/wgbh/aapb2
-- Java: http://sourceforge.net/p/filteredpush/svn/HEAD/tree/trunk/FP-DataEntry
-- JavaScript: http://mccalluc.github.io/data-demo
+- Ruby: [https://github.com/wgbh/aapb2]
+- Java: [http://sourceforge.net/p/filteredpush/svn/HEAD/tree/trunk/FP-DataEntry]
+- JavaScript: [http://mccalluc.github.io/data-demo]
 
 ## Work History
 

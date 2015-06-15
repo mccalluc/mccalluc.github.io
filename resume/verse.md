@@ -1,6 +1,6 @@
 ---
 layout: default
-title: A resume in verse: You could do worse?
+title: 'A resume in verse: You could do worse?'
 ---
 
 When the job search seems to be so slow,<br>
