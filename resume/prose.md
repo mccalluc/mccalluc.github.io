@@ -5,8 +5,10 @@ title: Chuck McCallum
 
 ## Code Samples
 
-- Ruby: [https://github.com/wgbh/aapb2]
-- Java: [http://sourceforge.net/p/filteredpush/svn/HEAD/tree/trunk/FP-DataEntry]
+- Ruby: 
+  - RoR site: [https://github.com/wgbh/aapb2]
+  - gem: [https://github.com/WGBH/sony-ci-api]
+- Java: [https://github.com/mccalluc/FP-DataEntry]
 - JavaScript: [http://mccalluc.github.io/data-demo]
 
 ## Work History
