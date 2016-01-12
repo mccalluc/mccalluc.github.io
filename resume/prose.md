@@ -20,17 +20,16 @@ title: Chuck McCallum
 ## Work History
 
 **Web Developer, Media Library and Archives, WGBH, Boston, Massachusetts 
-(August 2014-present)**: Helped to develop openvault.wgbh.org and 
-americanarchive.org, RoR applications with Solr backends for searching media 
-collections.
+(August 2014-present)**: Primary developer of americanarchive.org and wgbhstocksales.org, 
+RoR applications with Solr backends for media collections. Developed AWS scripts for 
+creating EC2 instances and managing green/blue deployments across load balancers.
 
 **Project Programmer, FilteredPush, Harvard Herbaria, Cambridge, Massachusetts 
-(August 2013-July 2014, funded for one year)**:    Conceived, designed, and 
-implemented the FilteredPush Data Entry plugin. Uses HTML5 Web Messaging API 
-and jQuery on the client side, with Solr and Jetty on the server side, to 
-simplify "copy cataloging" workflows. Also supported other components of the 
-FilteredPush project using JSF for the front end, and RDF/SPARQL and MongoDB, 
-in addition to SQL, on the back end.
+(August 2013-July 2014, funded for one year)**: Conceived and built a configurable 
+scriptlet generator to simplify “copy cataloging” workflows, particularly in natural 
+history collections. Used HTML5 Web Messaging API and jQuery on the client side, 
+with Solr and Jetty on the server side. Contributed to other components of the FilteredPush 
+project using JSF for the front end, and RDF/SPARQL, MongoDB, and MySQL on the back end.
 
 **Software Engineer, Journal of Visualized Experiments, Cambridge, 
 Massachusetts (June 2011-July 2013)**:    Led the rearchitecting of 
