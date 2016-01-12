@@ -6,10 +6,16 @@ title: Chuck McCallum
 ## Code Samples
 
 - Ruby: 
-  - RoR site: [https://github.com/wgbh/aapb2]
-  - gem: [https://github.com/WGBH/sony-ci-api]
-- Java: [https://github.com/mccalluc/FP-DataEntry]
-- JavaScript: [http://mccalluc.github.io/data-demo]
+  - Sites: 
+    - [American Archive of Public Broadcasting](http://americanarchive.org/) ([source](https://github.com/wgbh/aapb2))
+    - [WGBH Stock Sales](http://wgbhstocksales.org/) ([source](https://github.com/wgbh/stock-sales-2))
+    - [Open Vault](http://openvault.wgbh.org/) ([source](https://github.com/wgbh/openvault3))
+  - Tools: 
+    - [sony-ci-api](https://github.com/WGBH/sony-ci-api): Wrapper SDK for HTTP API for Sony Ci
+    - [CMLess](https://github.com/wgbh/cmless): Manage your site's static content as markdown on github
+    - [aws-wrapper](https://github.com/WGBH/aws-wrapper): Provisioning and deployment scripts for AWS
+- Java: [FP-DataEntry](https://github.com/mccalluc/FP-DataEntry): Solr-backed scriptlet to simplify data entry
+- JavaScript: [data-demo](http://mccalluc.github.io/data-demo): Toy project for exploring the byte-level structure of different file types
 
 ## Work History
 
