@@ -14,8 +14,11 @@ title: Chuck McCallum
     - [sony-ci-api](https://github.com/WGBH/sony-ci-api): Wrapper SDK for HTTP API for Sony Ci
     - [CMLess](https://github.com/wgbh/cmless): Manage your site's static content as markdown on github
     - [aws-wrapper](https://github.com/WGBH/aws-wrapper): Provisioning and deployment scripts for AWS
-- Java: [FP-DataEntry](https://github.com/mccalluc/FP-DataEntry): Solr-backed scriptlet to simplify data entry
-- JavaScript: [data-demo](http://mccalluc.github.io/data-demo): Toy project for exploring the byte-level structure of different file types
+- JavaScript: 
+  - [alt-aapb](http://mccalluc.github.io/alt-aapb/): Using D3 to visualize AAPB metadata
+  - [data-demo](http://mccalluc.github.io/data-demo): Toy project for exploring the byte-level structure of different file types
+- Java: 
+  - [FP-DataEntry](https://github.com/mccalluc/FP-DataEntry): Solr-backed scriptlet to simplify data entry
 
 ## Work History
 
