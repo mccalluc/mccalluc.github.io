@@ -1,7 +1,9 @@
 ---
 layout: default
-title: 'A resume in verse: You could do worse?'
+title: 'A resume in verse'
 ---
+
+<small>(You could do worse?)</small>
 
 When the job search seems to be so slow,<br>
 is resume in rhyme the way to go?
@@ -17,6 +19,12 @@ Perhaps a little flaky? Take your guess.
 
 A sense of poetry? Quite clearly, "no".<br>
 A work history can follow here below:
+
+At 'GBH, Archives and Library,<br>
+of over-complicated plans I was wary:
+
+With designers and department staff,<br>
+made several solid sites without a gaff.
 
 '14 at the Harvard Herbaria:<br>
 Software to catalog all the flora.

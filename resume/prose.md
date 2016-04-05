@@ -6,25 +6,33 @@ title: Chuck McCallum
 ## Code Samples
 
 - Ruby: 
-  - RoR site: [https://github.com/wgbh/aapb2]
-  - gem: [https://github.com/WGBH/sony-ci-api]
-- Java: [https://github.com/mccalluc/FP-DataEntry]
-- JavaScript: [http://mccalluc.github.io/data-demo]
+  - Sites: 
+    - [American Archive of Public Broadcasting](http://americanarchive.org/) ([source](https://github.com/wgbh/aapb2))
+    - [WGBH Stock Sales](http://wgbhstocksales.org/) ([source](https://github.com/wgbh/stock-sales-2))
+    - [Open Vault](http://openvault.wgbh.org/) ([source](https://github.com/wgbh/openvault3))
+  - Tools: 
+    - [sony-ci-api](https://github.com/WGBH/sony-ci-api): Wrapper SDK for HTTP API for Sony Ci
+    - [CMLess](https://github.com/wgbh/cmless): Manage your site's static content as markdown on github
+    - [aws-wrapper](https://github.com/WGBH/aws-wrapper): Provisioning and deployment scripts for AWS
+- JavaScript: 
+  - [alt-aapb](http://mccalluc.github.io/alt-aapb/): Using D3 to visualize AAPB metadata
+  - [data-demo](http://mccalluc.github.io/data-demo): Toy project for exploring the byte-level structure of different file types
+- Java: 
+  - [FP-DataEntry](https://github.com/mccalluc/FP-DataEntry): Solr-backed scriptlet to simplify data entry
 
 ## Work History
 
 **Web Developer, Media Library and Archives, WGBH, Boston, Massachusetts 
-(August 2014-present)**: Helped to develop openvault.wgbh.org and 
-americanarchive.org, RoR applications with Solr backends for searching media 
-collections.
+(August 2014-present)**: Primary developer of americanarchive.org and wgbhstocksales.org, 
+RoR applications with Solr backends for media collections. Developed AWS scripts for 
+creating EC2 instances and managing green/blue deployments across load balancers.
 
 **Project Programmer, FilteredPush, Harvard Herbaria, Cambridge, Massachusetts 
-(August 2013-July 2014, funded for one year)**:    Conceived, designed, and 
-implemented the FilteredPush Data Entry plugin. Uses HTML5 Web Messaging API 
-and jQuery on the client side, with Solr and Jetty on the server side, to 
-simplify "copy cataloging" workflows. Also supported other components of the 
-FilteredPush project using JSF for the front end, and RDF/SPARQL and MongoDB, 
-in addition to SQL, on the back end.
+(August 2013-July 2014, funded for one year)**: Conceived and built a configurable 
+scriptlet generator to simplify “copy cataloging” workflows, particularly in natural 
+history collections. Used HTML5 Web Messaging API and jQuery on the client side, 
+with Solr and Jetty on the server side. Contributed to other components of the FilteredPush 
+project using JSF for the front end, and RDF/SPARQL, MongoDB, and MySQL on the back end.
 
 **Software Engineer, Journal of Visualized Experiments, Cambridge, 
 Massachusetts (June 2011-July 2013)**:    Led the rearchitecting of 
