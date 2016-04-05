@@ -1,0 +1,103 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Chuck McCallum</title>
+
+    <style>
+    body {
+      margin: 0;
+      background: black;
+      font-family: sans-serif;
+      color: white;
+      line-height: 1.2em;
+    }
+    a { color: #DDD; }
+    #container {
+      margin: 0;
+      position: relative;
+      perspective: 600px;
+      perspective-origin: left;
+    }
+    .panel {
+      position: absolute;
+    }
+
+    .panel#left  {
+      transform: rotateY(15deg) rotateX(10deg) ;
+      transform-origin: left top;
+      width: 90%;
+      left: 5px;
+      top: 5px;
+    }
+    .panel#right  {
+      transform: rotateY(-60deg) rotateX(10deg) ;
+      transform-origin: right top;
+      width: 30%;
+      right: 5px;
+      top: 5px;
+
+    }
+    .wrap {
+      padding: 0 1em;
+    }
+
+
+  </style>
+
+</head>
+<body>
+
+
+  <div id="container">
+    <div id="left" class="panel">
+      <div class="wrap">
+        <h1>Chuck McCallum</h1>
+        <p><small>
+          <a href="/resume/prose">prose</a>
+          | <a href="/resume/prose">verse</a>
+          | mccalluc@yahoo.com
+        </small></p>
+        <dl>
+          <dt>Ruby sites</dt>
+          <dd><a href="http://americanarchive.org/">American Archive of Public Broadcasting</a> (<a href="https://github.com/wgbh/aapb2">source</a>)</dd>
+          <dd><a href="http://wgbhstocksales.org/">WGBH Stock Sales</a> (<a href="https://github.com/wgbh/stock-sales-2">source</a>)</dd>
+          <dd><a href="http://openvault.wgbh.org/">Open Vault</a> (<a href="https://github.com/wgbh/openvault3">source</a>)</dd>
+          <dt>Ruby tools</dt>
+          <dd><a href="https://github.com/WGBH/sony-ci-api">sony-ci-api</a>: Wrapper SDK for HTTP API for Sony Ci</dd>
+          <dd><a href="https://github.com/wgbh/cmless">CMLess</a>: Manage your site’s static content as markdown on github</dd>
+          <dd><a href="https://github.com/WGBH/aws-wrapper">aws-wrapper</a>: Provisioning and deployment scripts for AWS</dd>
+          <dt>JavaScript</dt>
+          <dd><a href="http://mccalluc.github.io/alt-aapb/">alt-aapb</a>: Using D3 to visualize AAPB metadata</dd>
+          <dd><a href="http://mccalluc.github.io/data-demo">data-demo</a>: Toy project for exploring the byte-level structure of different file types</dd>
+          <dt>Java</dt>
+          <dd><a href="https://github.com/mccalluc/FP-DataEntry">FP-DataEntry</a>: Solr-backed scriptlet to simplify data entry</dd>
+        </dl>
+      </div>
+    </div>
+    
+    <div id="right" class="panel">
+      <div class="wrap">
+       <p>
+        Also: 
+        <a href="https://www.google.com/maps/d/viewer?mid=z-OzHueqGhks.kwcBSTL_Uetc">tinyboston</a>
+        <a href="http://mccalluc.github.io/nolympics/">no&nbsp;olympics</a>
+        <a href="http://www.buttonbox.com/">concertina</a>
+        <a href="http://lcfd.org/jp/">contra</a>
+        <a href="http://web.mit.edu/swing/">swing</a>
+        <a href="http://www.bostonsacredharp.org">shape&nbsp;note</a>
+        <a href="http://bhfm.org/">friends</a>
+        <a href="http://www.meetup.com/Urban-Sketchers-Boston/">sketching</a>
+        <a href="http://www.archchinese.com/">chinese</a>
+       </p>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script>
+  </script>
+</body>
+</html>
