@@ -16,7 +16,9 @@ title: Chuck McCallum
     - [aws-wrapper](https://github.com/WGBH/aws-wrapper): Provisioning and deployment scripts for AWS
 - JavaScript: 
   - [alt-aapb](http://mccalluc.github.io/alt-aapb/): Using D3 to visualize AAPB metadata
-  - [data-demo](http://mccalluc.github.io/data-demo): Toy project for exploring the byte-level structure of different file types
+  - [data-demo](http://mccalluc.github.io/data-demo): Exploring the byte-level structure of MIDI and PNG
+  - [tilt](http://mccalluc.github.io/tilt/): 3D CSS transforms + matter.js physics engine
+  - [yajt](https://mccalluc.github.io/yajt/): Javascript Theremin
 - Java: 
   - [FP-DataEntry](https://github.com/mccalluc/FP-DataEntry): Solr-backed scriptlet to simplify data entry
 
