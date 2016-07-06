@@ -15,13 +15,13 @@ h1 {
 a {
     text-decoration: none;
     color: #000;
-    z-index: 10;
+    white-space: nowrap;
 }
 
 ul {
     border-left: .3em solid #F00;
     padding-left: 0;
-    width: 10em; /* Otherwise there are gratuitous scrollbars. */
+    width: 0; /* Prevented links from being clipable. */
 }
 
 ul li {
@@ -87,11 +87,7 @@ li.skip:before {
 <h1 style="float: left; padding-right: 0.5em;">Chuck McCallum</h1>
 <p>places I've helped<br>things I've helped with</p>
 
-<ul style="position: absolute; top: -3em;">
-  <!--
-    After working out the display, I realized none of the links are really clickable,
-    but it still looks cool. (That's not my usual criterion.)
-  -->
+<ul style="position: absolute; top: -4em;">
   <li><a href="http://www.reynoldsnaturepreserve.org">Morrow</a></li>
   <ul>
     <li><a href="https://apps.carleton.edu/campus/dacie/">Northfield</a></li>
@@ -100,21 +96,22 @@ li.skip:before {
   </ul>
   <li class="up"><a href="http://www.mdfood.coop/">College Park</a></li>
   <ul>
-    <li><a href="http://www.npr.org/">Mt. Vernon</a></li>
+    <li><a href="http://www.npr.org/">Mt. Vernon Sq.</a></li>
     <li><a href="http://www.jimmycarterlibrary.gov/">Carter</a></li>
     <li><a href="http://www.lib.umt.edu/">Missoula</a></li>
-    <li><a href="http://www.islandpress.org/">Dupont</a></li>
+    <li><a href="http://www.islandpress.org/">Dupont Circle</a></li>
   </ul>
   <li class="upupup"><a href="http://www.library.upenn.edu/">Penn</a></li>
+  <li><a href="http://tinyurl.com/tinyboston">Boston</a></li>
   <ul>
-    <li><a href="https://www.youtube.com/watch?v=58Gzlq4zSDk">Kendall</a></li>
-    <li><a href="http://www.jove.com/">Central</a></li>
+    <li><a href="https://www.youtube.com/watch?v=58Gzlq4zSDk">Kendall Square</a></li>
+    <li><a href="http://www.jove.com/">Central Square</a></li>
     <li><a href="https://github.com/mccalluc/FP-DataEntry">Herbaria</a></li>
     <li><a href="http://openvault.wgbh.org/">Brighton</a></li>
   </ul>
   <li class="upupup">resume,</li>
-  <li><a href="http://mccalluc.github.io/resume/prose" style="text-decoration: underline;">in prose</a></li>
-  <li><a href="http://mccalluc.github.io/resume/verse" style="text-decoration: underline;">or verse</a></li>
+  <li><a href="http://mccalluc.github.io/resume/prose">in prose</a></li>
+  <li><a href="http://mccalluc.github.io/resume/verse">or verse</a></li>
 </ul>
 
 </body>
