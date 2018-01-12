@@ -20,7 +20,7 @@ Perhaps a little flaky? Take your guess.
 A sense of poetry? Quite clearly, "no".<br>
 A work history can follow here below:
 
-Since '16 I'm at Harvard Medical,
+Since '16 I'm at Harvard Medical,<br>
 making bio-info visual.
 
 At 'GBH, Archives and Library,<br>
