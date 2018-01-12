@@ -3,7 +3,7 @@ layout: default
 title: 'A resume in verse'
 ---
 
-<small>(You could do worse?)</small>
+<small>(Probably could do worse?)</small>
 
 When the job search seems to be so slow,<br>
 is resume in rhyme the way to go?
@@ -20,6 +20,9 @@ Perhaps a little flaky? Take your guess.
 A sense of poetry? Quite clearly, "no".<br>
 A work history can follow here below:
 
+Since '16 I'm at Harvard Medical,
+making bio-info visual.
+
 At 'GBH, Archives and Library,<br>
 of over-complicated plans I was wary:
 
@@ -32,20 +35,14 @@ Software to catalog all the flora.
 '11 to '13, an e-journal<br>
 called JoVE, with PHP and SQL.
 
-It took a while, but paid a big a big tech debt,<br>
+It took a while, but paid a big tech debt,<br>
 and left it better than at the outset.
 
 2010, and yet a season more:<br>
 was back at ITA for an encore.
 
-2009, the library at Penn:<br>
-I long had planned to be librarian,
-
-and this, though temporary, seemed a fit,<br>
-between the IT skills, and love of lit.
-
-In xsl I crafted a display,<br>
-with java underneath to make it play.
+'09 at Penn I crafted a display,<br>
+with xsl beneath to make it play.
 
 At ITA, 2006 to 8,<br>
 on two projects did I participate:
