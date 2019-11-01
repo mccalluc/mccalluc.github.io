@@ -1,3 +1,3 @@
 # mccalluc.github.io
 
-Resume, etc...
+Resume, etc.
