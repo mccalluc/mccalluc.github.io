@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 'A resume in verse'
+title: "Chuck McCallum's resume in verse"
 ---
 
-<small>(Probably could do worse?)</small>
+<small>(It's not too good, but still, you could do worse.)</small>
 
 When the job search seems to be so slow,<br>
 is resume in rhyme the way to go?
@@ -23,17 +23,20 @@ A work history can follow here below:
 Since '16 I'm at Harvard Medical,<br>
 making bio-info visual.
 
+For [HuBMAP](https://portal.hubmapconsortium.org/) guided two devs and the design,<br>
+and kept collaborations all in line.
+
 At 'GBH, Archives and Library,<br>
-of over-complicated plans I was wary:
+delivered code for the [AAPB](https://americanarchive.org/),
 
-With designers and department staff,<br>
-made several solid sites without a gaff.
+and with designers and department staff,<br>
+shipped two other sites without a gaff.
 
-'14 at the Harvard Herbaria:<br>
-Software to catalog all the flora.
+'14, Harvard Herbaria, one year<br>
+to get some data management in gear.
 
 '11 to '13, an e-journal<br>
-called JoVE, with PHP and SQL.
+called [JoVE](https://www.jove.com/), with PHP and SQL.
 
 It took a while, but paid a big tech debt,<br>
 and left it better than at the outset.
@@ -41,10 +44,10 @@ and left it better than at the outset.
 2010, and yet a season more:<br>
 was back at ITA for an encore.
 
-'09 at Penn I crafted a display,<br>
+'09 at Penn I crafted a [display](http://dla.library.upenn.edu/dla/ead/index.html),<br>
 with xsl beneath to make it play.
 
-At ITA, 2006 to 8,<br>
+At [ITA](https://www.itasoftware.com/), 2006 to 8,<br>
 on two projects did I participate:
 
 The first: screen scraping for semantics, light.<br>
@@ -59,7 +62,7 @@ of volunteering, internships. Was fun,
 but hard to summarize: I'll make a try<br>
 to fit it in, and not to go awry.
 
-At Island Press: wrote up an export script.<br>
+At [Island Press](https://islandpress.org/): wrote up an export script.<br>
 (Had been by hand, and out of sync had slipped.)
 
 Two farms, a monastery: floors to sweep,<br>
