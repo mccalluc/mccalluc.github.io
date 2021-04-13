@@ -3,22 +3,6 @@ layout: default
 title: Chuck McCallum
 ---
 
-## Production Code Samples
-
-- Javascript:
-  - [Vitessce](https://github.com/hms-dbmi/vitessce/): "Visual Integration Tool for Exploration of Spatial Single-Cell Experiments"
-  - [vitessce-grid](https://github.com/hms-dbmi/vitessce-grid): Wrapper for react-grid-layout; Configure React component dashboard in JSON
-- Python:
-  - [django_docker_engine](https://github.com/refinery-platform/django_docker_engine): Docker engine wrapper + proxy server for containerized visualizations in Django
-  - [heatmap-scatter-dash](https://github.com/refinery-platform/heatmap-scatter-dash): Heatmap + scatterplot using Plotly Dash
-- Ruby:
-  - [American Archive of Public Broadcasting](http://americanarchive.org/) ([source](https://github.com/wgbh/aapb2))
-  - [WGBH Stock Sales](http://wgbhstocksales.org/) ([source](https://github.com/wgbh/stock-sales-2))
-  - [Open Vault](http://openvault.wgbh.org/) ([source](https://github.com/wgbh/openvault3))
-  - [CMLess](https://github.com/wgbh/cmless): Manage a site's static content as markdown on github
-- Java:
-  - [FP-DataEntry](https://github.com/mccalluc/FP-DataEntry): Solr-backed scriptlet to simplify data entry
-
 ## Work History
 
 **Visualization Software Developer, Department of Biomedical Informatics, Harvard Medical School
@@ -83,3 +67,17 @@ promoted its hosting, email, and custom software services.
 ## Education
 - Master of Library Science, University of Maryland, College Park, 2005.
 - BA, Geology and Mathematics, Carleton College, Northfield, Minnesota, 1999.
+
+## Code Samples
+
+- Javascript:
+  - [Vitessce](https://github.com/hms-dbmi/vitessce/): "Visual Integration Tool for Exploration of Spatial Single-Cell Experiments"
+  - [vitessce-grid](https://github.com/hms-dbmi/vitessce-grid): Wrapper for react-grid-layout; Configure React component dashboard in JSON
+- Python:
+  - [django_docker_engine](https://github.com/refinery-platform/django_docker_engine): Docker engine wrapper + proxy server for containerized visualizations in Django
+  - [heatmap-scatter-dash](https://github.com/refinery-platform/heatmap-scatter-dash): Heatmap + scatterplot using Plotly Dash
+- Ruby: Primary web developer on the early stages of several WGBH Library and Archives sites:
+  - [American Archive of Public Broadcasting](http://americanarchive.org/) ([source](https://github.com/WGBH-MLA/AAPB2))
+  - [WGBH Stock Sales](http://wgbhstocksales.org/) ([source](https://github.com/WGBH-MLA/stock-sales-2))
+  - [Open Vault](http://openvault.wgbh.org/) ([source](https://github.com/WGBH-MLA/openvault3))
+  - [CMLess](https://github.com/WGBH-MLA/cmless): A Rails gem to manage a site's static content as markdown on github
