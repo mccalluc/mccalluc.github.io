@@ -14,8 +14,9 @@ by simplifying deployment, creating new tracks, and improving test coverage and 
 Primary author of [Vitessce](http://vitessce.io), which uses Deck.gl on microscopy and sequencing data.
 
 **Web Developer, Media Library and Archives, WGBH, Boston, Massachusetts
-(August 2014-July 2016)**: Primary developer of americanarchive.org and wgbhstocksales.org,
-RoR applications with Solr backends for media collections. Developed AWS scripts for
+(August 2014-July 2016)**: Early developer on [americanarchive.org](https://americanarchive.org)
+and [wgbhstocksales.org](https://github.com/WGBH-MLA/stock-sales-2),
+ruby-on-rails applications with Solr backends for media collections. Developed AWS scripts for
 creating EC2 instances and managing green/blue deployments across load balancers.
 
 **Project Programmer, FilteredPush, Harvard Herbaria, Cambridge, Massachusetts
@@ -59,7 +60,7 @@ display. Managed reindexing jobs with Java / Spring and Perl scripts.
 
 **Software Developer VISTA, Community Software Lab, Lowell, Massachusetts (June
 2005-December 2005)**:    New features and bug fixes in Perl for
-http://mvhub.com, a social-services directory. Supported Apache, PostgreSQL,
+a Merrimack Valley social-services directory. Supported Apache, PostgreSQL,
 DHCP, DNS, firewall, and backups on Linux systems. Provided tech support in
 person and over the phone. Developed promotional materials for the Lab and
 promoted its hosting, email, and custom software services.   
@@ -70,14 +71,19 @@ promoted its hosting, email, and custom software services.
 
 ## Code Samples
 
-- Javascript:
-  - [Vitessce](https://github.com/hms-dbmi/vitessce/): "Visual Integration Tool for Exploration of Spatial Single-Cell Experiments"
-  - [vitessce-grid](https://github.com/hms-dbmi/vitessce-grid): Wrapper for react-grid-layout; Configure React component dashboard in JSON
-- Python:
-  - [django_docker_engine](https://github.com/refinery-platform/django_docker_engine): Docker engine wrapper + proxy server for containerized visualizations in Django
-  - [heatmap-scatter-dash](https://github.com/refinery-platform/heatmap-scatter-dash): Heatmap + scatterplot using Plotly Dash
-- Ruby: Primary web developer on the early stages of several WGBH Library and Archives sites:
+I was the principle developer at the start on each of these: The successful ones have had later contributors who have taken them well beyond what I could have done alone.
+
+- HuBMAP components:
+  - [Data Portal](https://portal.hubmapconsortium.org/) ([source](https://github.com/hubmapconsortium/portal-ui)): Flask site with React frontend
+  - [ingest-validation-tools](https://github.com/hubmapconsortium/ingest-validation-tools): Data submission guidelines, and tools to check that submissions adhere to those guidelines.
+- Visualizations:
+  - [Vitessce](https://github.com/vitessce/vitessce): "Visual Integration Tool for Exploration of Spatial Single-Cell Experiments"
+  - [heatmap-scatter-dash](https://github.com/refinery-platform/heatmap-scatter-dash): Simple heatmap + scatterplot using Plotly Dash
+- Python modules on Pypi:
+  - [tableschema-to-template](https://pypi.org/project/tableschema-to-template/): Generate Excel files from Tableschema definitions
+  - [django-docker-engine](https://pypi.org/project/django-docker-engine/): Docker engine wrapper + proxy server for containerized visualizations in Django
+- Ruby:
   - [American Archive of Public Broadcasting](http://americanarchive.org/) ([source](https://github.com/WGBH-MLA/AAPB2))
   - [WGBH Stock Sales](http://wgbhstocksales.org/) ([source](https://github.com/WGBH-MLA/stock-sales-2))
   - [Open Vault](http://openvault.wgbh.org/) ([source](https://github.com/WGBH-MLA/openvault3))
-  - [CMLess](https://github.com/WGBH-MLA/cmless): A Rails gem to manage a site's static content as markdown on github
+  - [CMLess](https://github.com/WGBH-MLA/cmless): Rails gem to manage a site's static content as markdown on github
