@@ -38,11 +38,11 @@ Propel ORM library, HTML5 File and History APIs, jQuery, and the SlickGrid JS
 library.
 
 **Software and QA Engineer, ITA Software, Cambridge, Massachusetts (January
-2006-December 2008, January 2010-April 2011)**:    Helped with Needlebase, a
-tool for information gathering and analysis. (The project ended in 2012, but a
-screen-cast is available: http://www.youtube.com/watch?v=58Gzlq4zSDk.)
-Supported a team of three, later growing to a dozen, by doing whatever needed
-to be done. As QA, identified bugs in all layers of the system, documented
+2006-December 2008, January 2010-April 2011)**:    Supported developers of
+Needlebase, a tool for information gathering and analysis.
+([Demo video](http://www.youtube.com/watch?v=58Gzlq4zSDk) still available,
+but project [discontinued after acquisition by Google](https://googleblog.blogspot.com/2012/01/renewing-old-resolutions-for-new-year.html).)
+As QA, identified bugs in all layers of the system, documented
 reproducers, wrote JUnit tests, and confirmed the fixes. As evangelist, wrote
 blog posts and documentation and created demonstrations of the system. As
 customer support, helped users understand how the software could solve their
