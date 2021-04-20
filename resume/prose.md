@@ -3,15 +3,21 @@ layout: default
 title: Chuck McCallum
 ---
 
+Full-stack web developer with experience guiding small teams to deliver tools for researchers in the sciences and humanities.
+Familiar with frameworks for data visualization, free-text search, and video delivery.
+Interested in providing clear documentation and interfaces for users,
+mentoring and supporting junior colleagues,
+promoting software engineering best-practices across the organization,
+and contributing back to open source software.
+
 ## Work History
 
 **Visualization Software Developer, Department of Biomedical Informatics, Harvard Medical School
-(August 2016-present)**: As part of the Gehlenborg Lab, supported research on visualization in
-biomedical informatics and mentored new developers and interns. Contributed to
-[Refinery](https://github.com/refinery-platform/refinery-platform), a data management platform, by developing [django_docker_engine](https://github.com/refinery-platform/django_docker_engine), a framework for
-deploying containerized visualizations within Django. Contributed to [HiGlass](http://higlass.io/)
-by simplifying deployment, creating new tracks, and improving test coverage and input validation.
-Primary author of [Vitessce](http://vitessce.io), which uses Deck.gl on microscopy and sequencing data.
+(August 2016-present)**: As part of the [Gehlenborg Lab](http://gehlenborglab.org/),
+supported data visualization research and mentored new developers and interns.
+Lead a four person team developing the the front-end and data curation tools for [HuBMAP](https://portal.hubmapconsortium.org/).
+Initial author of [Vitessce](http://vitessce.io), which uses Deck.gl for interactive visualizations of spatial single-cell data,
+and contributed to [HiGlass](http://higlass.io/) by simplifying deployment, and improving test coverage and input validation.
 
 **Web Developer, Media Library and Archives, WGBH, Boston, Massachusetts
 (August 2014-July 2016)**: Early developer on [americanarchive.org](https://americanarchive.org)
@@ -40,16 +46,13 @@ library.
 **Software and QA Engineer, ITA Software, Cambridge, Massachusetts (January
 2006-December 2008, January 2010-April 2011)**:    Supported developers of
 Needlebase, a tool for information gathering and analysis.
-([Demo video](http://www.youtube.com/watch?v=58Gzlq4zSDk) still available,
-but project [discontinued after acquisition by Google](https://googleblog.blogspot.com/2012/01/renewing-old-resolutions-for-new-year.html).)
+(Project [discontinued after acquisition](https://googleblog.blogspot.com/2012/01/renewing-old-resolutions-for-new-year.html),
+but [demo video](http://www.youtube.com/watch?v=58Gzlq4zSDk) still available.)
 As QA, identified bugs in all layers of the system, documented
 reproducers, wrote JUnit tests, and confirmed the fixes. As evangelist, wrote
 blog posts and documentation and created demonstrations of the system. As
 customer support, helped users understand how the software could solve their
-problems, and provided feedback to developers and designers. On temporary
-assignment to the Airline Reservations System (July 2006-July 2007)
-participated in design discussions and implemented a booking flow and an
-administrative interface.
+problems, and provided feedback to developers and designers.
 
 **Library Software Developer, University of Pennsylvania Libraries,
 Philadelphia, Pennsylvania (2009; funded for one year)**:    For the Penn
@@ -71,7 +74,7 @@ promoted its hosting, email, and custom software services.
 
 ## Code Samples
 
-I was the principle developer at the start on each of these: The successful ones have had later contributors who have taken them well beyond what I could have done alone.
+I was the principle developer at the start on each of these: Later contributors have taken the successful ones well beyond what I could have done alone.
 
 - HuBMAP components:
   - [Data Portal](https://portal.hubmapconsortium.org/) ([source](https://github.com/hubmapconsortium/portal-ui)): Flask site with React frontend
@@ -87,3 +90,5 @@ I was the principle developer at the start on each of these: The successful ones
   - [WGBH Stock Sales](http://wgbhstocksales.org/) ([source](https://github.com/WGBH-MLA/stock-sales-2))
   - [Open Vault](http://openvault.wgbh.org/) ([source](https://github.com/WGBH-MLA/openvault3))
   - [CMLess](https://github.com/WGBH-MLA/cmless): Rails gem to manage a site's static content as markdown on github
+- Java:
+  - [FP-DataEntry](https://github.com/mccalluc/FP-DataEntry): “Copy cataloging” tool for natural history collections
