@@ -1,4 +1,7 @@
-## Projects
+---
+layout: default
+title: Projects
+---
 
 I was a key contributor to each of these. Projects where I was the only significant code contributor are _italicized_, but successful projects have gone well beyond what I could have done alone.
 
