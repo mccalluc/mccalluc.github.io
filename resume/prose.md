@@ -12,12 +12,13 @@ and contributing back to open source software.
 
 ## Work History
 
-**Visualization Software Developer, Department of Biomedical Informatics, Harvard Medical School
-(August 2016–present)**: As part of the [Gehlenborg Lab](http://gehlenborglab.org/),
-support data visualization research and mentor new developers and interns.
-Lead a four person team developing the front-end and data curation tools for [HuBMAP](https://portal.hubmapconsortium.org/).
-Initial author of [Vitessce](http://vitessce.io), which uses Deck.gl for interactive visualizations of spatial single-cell data,
-and contributed to [HiGlass](http://higlass.io/) by simplifying deployment and improving test coverage and input validation.
+**Senior Software Engineer, Department of Biomedical Informatics, Harvard Medical School
+(August 2016–present)**:
+As part of the Gehlenborg Lab, supported data visualization research and mentored students and interns.
+Lead a four person team using Python and Javascript/React to develop the front-end and data curation tools for [HuBMAP](https://portal.hubmapconsortium.org/).
+Promoted the use of software engineering practices across the consortium, including code reviews, automated testing, and dev-ops.
+Managed issue backlogs, and presented sprint summaries. Initial author of [Vitessce](http://vitessce.io), which repurposed a geospatial library (Deck.gl) for interactive visualizations of spatial single-cell data.
+Delivered Docker containers for multiple projects, and from 2016-2019, managed database migrations with Django ORM, and deployment to AWS with Terraform.
 
 **Web Developer, Media Library and Archives, WGBH, Boston, Massachusetts
 (August 2014–July 2016)**: Early developer on [americanarchive.org](https://americanarchive.org)
