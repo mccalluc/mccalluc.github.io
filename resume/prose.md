@@ -3,9 +3,9 @@ layout: default
 title: Chuck McCallum
 ---
 
-Full-stack web developer with experience guiding small teams to deliver tools for researchers in the sciences and humanities.
-Familiar with frameworks for data visualization, free-text search, and video delivery.
-Interested in providing clear documentation and interfaces for users,
+- Full-stack web developer with experience guiding small teams to deliver tools for researchers in the sciences and humanities.
+- Experience with data visualization, free-text search, and video delivery.
+- Interested in providing clear documentation and interfaces for users,
 mentoring and supporting junior colleagues,
 promoting software engineering best-practices across the organization,
 and contributing back to open source software.
