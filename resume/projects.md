@@ -10,7 +10,7 @@ Projects where I was the only significant code contributor are _italicized_, but
 - [_ingest-validation-tools_](https://github.com/hubmapconsortium/ingest-validation-tools): Data submission guidelines, and tools to check that submissions adhere to those guidelines. Listened to data curators, pipeline authors, and lab scientists, and delivered scripts and a schema language that is used to validate submissions and generate documentation.
 
 ## Visualizations:
-- [Vitessce](http://beta.vitessce.io/) ([source](https://github.com/vitessce/vitessce) / [my PRs](https://github.com/vitessce/vitessce/pulls?q=is%3Apr+is%3Aclosed+author%3Amccalluc)): “Visual Integration Tool for Exploration of Spatial Single-Cell Experiments”. Initial author on a Javascript library for declaratively specified, linked, interactive visualizations, repurposing the deck.gl geospatial library for microscopy and single-cell analysis.
+- [Vitessce](http://beta.vitessce.io/) ([source](https://github.com/vitessce/vitessce) / [my PRs](https://github.com/vitessce/vitessce/pulls?q=is%3Apr+is%3Aclosed+author%3Amccalluc)): “Visual Integration Tool for Exploration of Spatial Single-Cell Experiments”. Initial author of a Javascript library for declaratively specified, linked, interactive visualizations, repurposing the deck.gl geospatial library for microscopy and single-cell analysis.
 - [_heatmap-scatter-dash_](https://github.com/refinery-platform/heatmap-scatter-dash): Simple heatmap + scatterplot using Plotly Dash.
 
 ## Python modules on Pypi:
