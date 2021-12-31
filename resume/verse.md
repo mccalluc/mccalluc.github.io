@@ -3,7 +3,7 @@ layout: default
 title: "Chuck McCallum's resume in verse"
 ---
 
-<small>(It's not too good, but still, you could do worse.)</small>
+<small>(It's not too good, but still, it could be worse.)</small>
 
 When the job search seems to be so slow,<br>
 is resume in rhyme the way to go?
@@ -18,7 +18,7 @@ So: competent, at least, I'd hope a "yes".<br>
 Perhaps a little flaky? Take your guess.
 
 A sense of poetry? Quite clearly, "no".<br>
-A work history can follow here below:
+A work history will follow here below:
 
 Since '16 I'm at Harvard Medical,<br>
 making bio-info visual.
