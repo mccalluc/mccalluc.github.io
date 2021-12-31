@@ -2,7 +2,18 @@
   <head>
     <title>{{ page.title }}</title>
     <style>
-      body { font-family: sans-serif; background: #DDD; }
+      body {
+        font-family: sans-serif;
+        border-left: .4em solid #F00;
+        margin-top: 0;
+        padding-top: 2em;
+      }
+      h1:before, h2:before {
+        content: "\25A0\00A0";
+        color: #F00;
+        margin-left: -0.2em;
+      }
+      p, ul { padding-left: 2em; }
       a { text-decoration: none; }
       a:hover { text-decoration: underline; }
       img { background: #FFF; }
