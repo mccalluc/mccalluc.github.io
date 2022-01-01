@@ -23,3 +23,9 @@ Projects where I was the only significant code contributor are _italicized_, but
 
 ## Java:
 - [_FP-DataEntry_](https://github.com/mccalluc/FP-DataEntry): Server + browser bookmarklet for copy cataloging in natural history collections. The Filtered Push project had proposed a distributed network for data-sharing across natural history collections. When that failed to engage, proposed and implemented a small tool to support interactive screen scraping and data alignment.
+
+## Fun (?) non-work projects:
+- [_yajt_](http://mccalluc.github.io/yajt) ([source](https://github.com/mccalluc/yajt)): Video processing and sound generation in the browser
+- [_demo-data_](http://mccalluc.github.io/data-demo) ([source](https://github.com/mccalluc/data-demo)): Build PNG and MIDI files byte by byte
+- [_dagsheet_](http://mccalluc.github.io/dagsheet) ([source](https://github.com/mccalluc/dagsheet)): A toy functional graphical programming environment
+- [_ploverlay_](http://mccalluc.github.io/ploverlay) ([source](https://github.com/mccalluc/ploverlay)): Uses the Geolocation API to show where you are in the real world
