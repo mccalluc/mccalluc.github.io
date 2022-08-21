@@ -7,6 +7,7 @@ title: Chuck McCallum
 - Interested in providing clear documentation and interfaces for users,
 mentoring and supporting junior colleagues,
 and promoting software engineering best-practices across the organization.
+- [Portfolio](https://mccalluc.github.io/resume/projects) / [GitHub](https://github.com/mccalluc) / [LinkedIn](https://www.linkedin.com/in/chuck-mccallum-8601965/)
 
 ## Work History
 
