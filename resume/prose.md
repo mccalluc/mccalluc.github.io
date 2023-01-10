@@ -11,7 +11,9 @@ and promoting software engineering best-practices across the organization.
 
 ## Work History
 
-**Visualization Software Developer (August 2016-April 2021) / Senior Software Developer (April 2021–present), Gehlenborg Lab, Department of Biomedical Informatics, Harvard Medical School**:
+**Research Data Storage Developer (October 2022-present), Princeton University, Office of Information Technology**: On assignment to the Research Data and Scholarship Services Team in the library, implemented new features in a Ruby-on-Rails [data entry application](https://github.com/pulibrary/pdc_describe) and contributed to sprint planning.
+
+**Visualization Software Developer (August 2016-April 2021) / Senior Software Developer (April 2021–October 2022), Gehlenborg Lab, Department of Biomedical Informatics, Harvard Medical School**:
 Supported data visualization research and mentored students and interns.
 Lead a four person team using Python/Flask and Javascript/React to develop the front-end and data curation tools for [HuBMAP](https://portal.hubmapconsortium.org/), an NIH-funded data portal.
 Managed issue backlogs, set meeting agendas, took notes, and coordinated with teams at other institutions. Initial author of [Vitessce](http://vitessce.io), which repurposed a geospatial library (Deck.gl) for interactive visualizations of spatial single-cell data.
