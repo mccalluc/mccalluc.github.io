@@ -11,7 +11,7 @@ and promoting software engineering best-practices across the organization.
 
 ## Work History
 
-**Research Data Storage Developer (October 2022-present), Princeton University, Office of Information Technology**: On assignment to the Research Data and Scholarship Services Team in the library, implemented new features in a Ruby-on-Rails [data entry application](https://github.com/pulibrary/pdc_describe) and contributed to sprint planning.
+**Research Data Storage Developer (October 2022-present), Princeton University, Office of Information Technology**: On assignment to the Research Data and Scholarship Services Team in the library, implemented new features in a Ruby-on-Rails [data entry application](https://github.com/pulibrary/pdc_describe/pulls?q=is%3Apr+author%3Amccalluc) and contributed to sprint planning.
 
 **Visualization Software Developer (August 2016-April 2021) / Senior Software Developer (April 2021–October 2022), Gehlenborg Lab, Department of Biomedical Informatics, Harvard Medical School**:
 Supported data visualization research and mentored students and interns.
@@ -58,12 +58,16 @@ applied existing widgets to build new collections. Used Solr for the backend,
 WSDLs to connect to outside services, and XLST pipelines in Apache Cocoon for
 display. Managed reindexing jobs with Java / Spring and Perl scripts.
 
+## Selected Volunteering
+
+**Mentor, [Code The Dream](https://codethedream.org/), Remote (May 2022-present)**: Reviewed assignments and PRs covering basic HTML, CSS, JS, and command-line skills. Available for 1:1 mentoring sessions: explained developer tools and debugging strategies, and discussed interview preparation and IT careers.
+
 **Software Developer VISTA, Community Software Lab, Lowell, Massachusetts (June
 2005–December 2005)**: New features and bug fixes in Perl for
 a Merrimack Valley social services directory. Supported Apache, PostgreSQL,
 DHCP, DNS, firewall, and backups on Linux systems. Provided tech support in
 person and by phone. Developed promotional materials for the Lab and
-promoted its hosting, email, and custom software services.   
+promoted its hosting, email, and custom software services.
 
 ## Education
 - Master of Library Science, University of Maryland, College Park, 2005.
