@@ -4,6 +4,7 @@
 <head>
 <meta charset="utf-8">
 <title>Chuck McCallum</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
 <style>
 
 body { 
@@ -59,7 +60,6 @@ ul ul ul li:before {
 
 ul {
     transform-origin: left bottom;
-    transform: rotate(45deg);
 }
 
 ul ul {
@@ -93,6 +93,20 @@ li.upupupupupup {
 li.skip:before {
     content: "";
 }
+
+@media screen and (min-width: 35rem) {
+    ul {
+        transform: rotate(22.5deg);
+    }
+}
+
+
+@media screen and (min-width: 40rem) {
+    ul {
+        transform: rotate(45deg);
+    }
+}
+
 
 </style>
 </head>
