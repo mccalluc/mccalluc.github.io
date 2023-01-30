@@ -94,16 +94,44 @@ li.skip:before {
     content: "";
 }
 
+#root {
+    position: absolute;
+    top: 8em;
+}
+
+@media screen and (min-width: 32.5rem) {
+    ul {
+        transform: rotate(11.25deg);
+    }
+    #root {
+        top: 5em;
+    }
+}
+
 @media screen and (min-width: 35rem) {
     ul {
         transform: rotate(22.5deg);
     }
+    #root {
+        top: 2em;
+    }
 }
 
+@media screen and (min-width: 37.5rem) {
+    ul {
+        transform: rotate(33.75deg);
+    }
+    #root {
+        top: -1em;
+    }
+}
 
 @media screen and (min-width: 40rem) {
     ul {
         transform: rotate(45deg);
+    }
+    #root {
+        top: -4em;
     }
 }
 
@@ -115,7 +143,7 @@ li.skip:before {
 <h1 style="float: left; padding-right: 0.5em;">Chuck McCallum</h1>
 <p>places I've helped<br>things I've helped with</p>
 
-<ul style="position: absolute; top: -4em;">
+<ul id="root">
   <li><a target="_blank" target="_blank" href="http://www.claytonparks.com/reynolds-nature-preserve/">Morrow</a></li>
   <ul>
     <li><a target="_blank" href="https://www.carleton.edu/dacie/">Northfield</a></li>
