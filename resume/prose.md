@@ -11,7 +11,7 @@ and promoting software engineering best-practices across the organization.
 
 ## Work History
 
-**Research Data Storage Developer (October 2022-present), Princeton University, Office of Information Technology**: On assignment to the Research Data and Scholarship Services Team in the library, implemented new features in a Ruby-on-Rails [data entry application](https://github.com/pulibrary/pdc_describe/pulls?q=is%3Apr+author%3Amccalluc) and contributed to sprint planning.
+**Research Data Storage Developer (October 2022-present), Princeton University, Office of Information Technology**: Working with software developers in the library, added new features to [pdc_describe](https://github.com/pulibrary/pdc_describe/pulls?q=is%3Apr+author%3Amccalluc), a cataloging tool for librarians, and initial configurations in [TigerData](https://github.com/pulibrary/tiger-data-app/pulls?q=is%3Apr+author%3Amccalluc), a set of data storage and management tools that are planned to be used across the university.
 
 **Visualization Software Developer (August 2016-April 2021) / Senior Software Developer (April 2021–October 2022), Gehlenborg Lab, Department of Biomedical Informatics, Harvard Medical School**:
 Supported data visualization research and mentored students and interns.
