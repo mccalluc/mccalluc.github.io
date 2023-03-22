@@ -15,7 +15,9 @@ and promoting software engineering best-practices across the organization.
 
 **Visualization Software Developer (August 2016-April 2021) / Senior Software Developer (April 2021–October 2022), Gehlenborg Lab, Department of Biomedical Informatics, Harvard Medical School**:
 Supported data visualization research and mentored students and interns.
-Lead a four person team using Python/Flask and Javascript/React to develop the front-end and data curation tools for [HuBMAP](https://portal.hubmapconsortium.org/), an NIH-funded data portal.
+Lead a four person team using Python/Flask and Javascript/React to develop the
+[front-end](https://github.com/hubmapconsortium/portal-ui) and [data curation](https://github.com/hubmapconsortium/ingest-validation-tools)
+tools for [HuBMAP](https://portal.hubmapconsortium.org/), an NIH-funded data portal.
 Managed issue backlogs, set meeting agendas, took notes, and coordinated with teams at other institutions. Initial author of [Vitessce](http://vitessce.io), which repurposed a geospatial library (Deck.gl) for interactive visualizations of spatial single-cell data.
 Delivered Docker containers for multiple projects, and from 2016-2019, managed database migrations with Django ORM, and deployment to AWS with Terraform.
 
