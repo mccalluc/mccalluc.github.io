@@ -11,7 +11,10 @@ and promoting software engineering best-practices across the organization.
 
 ## Work History
 
-**Research Data Storage Developer (October 2022-present), Princeton University, Office of Information Technology**: Working with software developers in the library, added new features to [pdc_describe](https://github.com/pulibrary/pdc_describe/pulls?q=is%3Apr+author%3Amccalluc), a cataloging tool for librarians, and initial configurations in [TigerData](https://github.com/pulibrary/tiger-data-app/pulls?q=is%3Apr+author%3Amccalluc), a set of data storage and management tools that are planned to be used across the university.
+**Seasonal Educator (April 2023-present), Old North Illuminated**: Welcome visitors to Boston's
+[Old North Church](https://www.oldnorth.com/about-old-north-illuminated/). Explain the history and continuing relevance of the site by guiding tours and answering questions.
+
+**Research Data Storage Developer (October 2022-March 2023), Princeton University, Office of Information Technology**: Working with software developers in the university library, added new features to [pdc_describe](https://github.com/pulibrary/pdc_describe/pulls?q=is%3Apr+author%3Amccalluc), a cataloging tool for librarians, and initial configurations in [TigerData](https://github.com/pulibrary/tiger-data-app/pulls?q=is%3Apr+author%3Amccalluc), a set of data storage and management tools that are planned to be used across the university. In these Ruby-on-Rails applications, configured Vite, ESLint, and JS testing as part of CI.
 
 **Visualization Software Developer (August 2016-April 2021) / Senior Software Developer (April 2021–October 2022), Gehlenborg Lab, Department of Biomedical Informatics, Harvard Medical School**:
 Supported data visualization research and mentored students and interns.
