@@ -20,19 +20,19 @@ Perhaps a little flaky? Take your guess.
 A sense of poetry? Quite clearly, "no".<br>
 A work history will follow here below:
 
-The summer '23, a tour guide,
+The summer '23, a tour guide,<br>
 providing context for the [midnight ride](https://www.oldnorth.com/).
 
-A six-month stint with Princeton's Library:
+A six-month stint with Princeton's Library:<br>
 some Ruby code, but short I will agree.
 
-If you'd prefer stability instead:
-'16 to '21 at Harvard Med,<br>
+If you'd prefer stability instead:<br>
+'16 to '21 at Harvard Med,
 
 For [HuBMAP](https://portal.hubmapconsortium.org/) guided devs and the design,<br>
 and kept collaborations all in line.
 
-I mentored masters students, odd intern:
+I mentored masters students, odd intern:<br>
 as much as they, I also got to learn!
 
 At 'GBH, Archives and Library,<br>
