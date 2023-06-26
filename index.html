@@ -17,6 +17,11 @@ h1 {
     margin: 0px;
 }
 
+h2 {
+    margin: 0px;
+    font-size: medium;
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -96,7 +101,7 @@ li.skip:before {
 
 #root {
     position: absolute;
-    top: 8em;
+    top: 7em;
 }
 
 @media screen and (min-width: 32.5rem) {
@@ -127,11 +132,15 @@ li.skip:before {
 }
 
 @media screen and (min-width: 40rem) {
+    h1 {
+        float: left;
+        padding-right: 0.5em;
+    }
     ul {
         transform: rotate(45deg);
     }
     #root {
-        top: -4em;
+        top: -6em;
     }
 }
 
@@ -140,8 +149,8 @@ li.skip:before {
 </head>
 <body>
 
-<h1 style="float: left; padding-right: 0.5em;">Chuck McCallum</h1>
-<p>places I've helped<br>things I've helped with</p>
+<h1>Chuck McCallum</h1>
+<h2>places I've helped<br>things I've helped with</h2>
 
 <ul id="root">
   <li><a target="_blank" target="_blank" href="http://www.claytonparks.com/reynolds-nature-preserve/">Morrow</a></li>
