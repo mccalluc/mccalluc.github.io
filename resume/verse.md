@@ -20,11 +20,20 @@ Perhaps a little flaky? Take your guess.
 A sense of poetry? Quite clearly, "no".<br>
 A work history will follow here below:
 
-Since '16 I'm at Harvard Medical,<br>
-making bio-info visual.
+The summer '23, a tour guide,
+providing context for the [midnight ride](https://www.oldnorth.com/).
 
-For [HuBMAP](https://portal.hubmapconsortium.org/) guided two devs and the design,<br>
+A six-month stint with Princeton's Library:
+some Ruby code, but short I will agree.
+
+If you'd prefer stability instead:
+'16 to '21 at Harvard Med,<br>
+
+For [HuBMAP](https://portal.hubmapconsortium.org/) guided devs and the design,<br>
 and kept collaborations all in line.
+
+I mentored masters students, odd intern:
+as much as they, I also got to learn!
 
 At 'GBH, Archives and Library,<br>
 delivered code for the [AAPB](https://americanarchive.org/),
