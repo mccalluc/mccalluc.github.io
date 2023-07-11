@@ -15,8 +15,7 @@ and promoting software engineering best-practices across the organization.
 [Old North Church](https://www.oldnorth.com/about-old-north-illuminated/),
 [Faneuil Hall](https://www.nps.gov/places/faneuil-hall.htm),
 and the [Cooper-Frost-Austin House](https://www.historicnewengland.org/property/cooper-frost-austin-house/),
-explained the history and significance of the sites to visitors ranging in age, language, and educational background, through both scripted tours and spontaneous conversations.
-Consistently enforced policies to ensure the preservation of the sites.
+welcomed diverse visitors and explained the history and continuing significance of the sites through scripted tours and spontaneous conversations. Consistently enforced policies to ensure the safety of visitors and the preservation of the sites.
 
 **Research Data Storage Developer (October 2022-March 2023), Princeton University, Office of Information Technology**: Working with software developers in the university library, added new features to [pdc_describe](https://github.com/pulibrary/pdc_describe/pulls?q=is%3Apr+author%3Amccalluc), a cataloging tool for librarians, and initial configurations in [TigerData](https://github.com/pulibrary/tiger-data-app/pulls?q=is%3Apr+author%3Amccalluc), a set of data storage and management tools that are planned to be used across the university. In these Ruby-on-Rails applications, configured Vite, ESLint, and JS testing as part of CI.
 
@@ -36,7 +35,7 @@ creating EC2 instances and managing green/blue deployments across load balancers
 
 **Project Programmer, FilteredPush, Harvard Herbaria, Cambridge, Massachusetts
 (August 2013–July 2014, funded for one year)**: Proposed and implemented a configurable
-scriptlet generator to simplify “copy cataloging” workflows, particularly in natural
+bookmarklet generator to simplify “copy cataloging” workflows, particularly in natural
 history collections. Used HTML5 Web Messaging API and jQuery on the client side,
 with Solr and Jetty on the server side. Contributed to other components of the FilteredPush
 project using JSF for the front end, and RDF/SPARQL, MongoDB, and MySQL on the back end.
