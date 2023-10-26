@@ -11,11 +11,11 @@ and promoting software engineering best-practices across the organization.
 
 ## Work History
 
-**Seasonal Educator, Old North Illuminated; Volunteer, National Park Service; Tour Guide, Historic New England (April 2023-present)**: Splitting time between
-[Old North Church](https://www.oldnorth.com/about-old-north-illuminated/),
-[Faneuil Hall](https://www.nps.gov/places/faneuil-hall.htm),
-and the [Cooper-Frost-Austin House](https://www.historicnewengland.org/property/cooper-frost-austin-house/),
-welcomed diverse visitors and explained the history and continuing significance of the sites through scripted tours and spontaneous conversations. Consistently enforced policies to ensure the safety of visitors and the preservation of the sites.
+**Software Developer, OpenDP (October 2023-present)**: Reviewing [documentation](https://docs.opendp.org) for the OpenDP library.
+
+**Seasonal Educator, Old North Illuminated (April-October 2023); Tour Guide, Historic New England (April-October 2023); Volunteer, National Park Service (April-August 2023)**: Splitting time between
+[Old North Church](https://www.oldnorth.com/about-old-north-illuminated/), the [Cooper-Frost-Austin House](https://www.historicnewengland.org/property/cooper-frost-austin-house/), and [Faneuil Hall](https://www.nps.gov/places/faneuil-hall.htm),
+welcomed diverse visitors and explained the history and continuing significance of these sites through scripted tours and spontaneous conversations. Consistently enforced policies to ensure the safety of visitors and the preservation of the sites.
 
 **Research Data Storage Developer (October 2022-March 2023), Princeton University, Office of Information Technology**: Working with software developers in the university library, added new features to [pdc_describe](https://github.com/pulibrary/pdc_describe/pulls?q=is%3Apr+author%3Amccalluc), a cataloging tool for librarians, and initial configurations in [TigerData](https://github.com/pulibrary/tiger-data-app/pulls?q=is%3Apr+author%3Amccalluc), a set of data storage and management tools that are planned to be used across the university. In these Ruby-on-Rails applications, configured Vite, ESLint, and JS testing as part of CI.
 
