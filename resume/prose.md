@@ -13,7 +13,7 @@ and promoting software engineering best-practices across the organization.
 
 **Software Developer, OpenDP (October 2023-present)**: Reviewing [documentation](https://docs.opendp.org) for the OpenDP library.
 
-**Seasonal Educator, Old North Illuminated (April-October 2023); Tour Guide, Historic New England (April-October 2023); Volunteer, National Park Service (April-August 2023)**: Splitting time between
+**Seasonal Educator, Old North Illuminated (April-November 2023); Tour Guide, Historic New England (April-October 2023); Volunteer, National Park Service (April-August 2023)**: Splitting time between
 [Old North Church](https://www.oldnorth.com/about-old-north-illuminated/), the [Cooper-Frost-Austin House](https://www.historicnewengland.org/property/cooper-frost-austin-house/), and [Faneuil Hall](https://www.nps.gov/places/faneuil-hall.htm),
 welcomed diverse visitors and explained the history and continuing significance of these sites through scripted tours and spontaneous conversations. Consistently enforced policies to ensure the safety of visitors and the preservation of the sites.
 
