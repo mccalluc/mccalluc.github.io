@@ -11,10 +11,11 @@ and promoting software engineering best-practices across the organization.
 
 ## Work History
 
-**Software Developer, OpenDP (October 2023-present)**: Improved CI tooling and documentation for the [OpenDP](https://github.com/opendp/opendp/) library.
-As part of the NSF POSE program, recruited and interviewed study participants to help set development priorities and build the open source ecosystem.
+**Software Developer, OpenDP (October 2023-present)**: Improved CI tooling and documentation for the [OpenDP](https://github.com/opendp/opendp/) differntial privacy library.
+Implemented new features across Python, Rust, and R codebases.
+As part of the NSF POSE program, recruited and interviewed study participants to help guide development priorities and build the open source ecosystem.
 
-**Seasonal Educator, Old North Illuminated (April-December 2023); Tour Guide, Historic New England (April-October 2023); Volunteer, National Park Service 
+**Seasonal Educator, Old North Illuminated (April 2023-present); Tour Guide, Historic New England (April 2023-present); Volunteer, National Park Service 
 (April-August 2023)**: Splitting time between
 [Old North Church](https://www.oldnorth.com/about-old-north-illuminated/), the [Cooper-Frost-Austin House](https://www.historicnewengland.org/property/cooper-frost-austin-house/), and [Faneuil Hall](https://www.nps.gov/places/faneuil-hall.htm),
 welcomed diverse visitors and explained the history and continuing significance of these sites through scripted tours and spontaneous conversations. Consistently enforced policies to ensure the safety of visitors and the preservation of the sites.
@@ -67,10 +68,6 @@ Digital Library](http://dla.library.upenn.edu/dla), created new widgets and
 applied existing widgets to build new collections. Used Solr for the backend,
 WSDLs to connect to outside services, and XLST pipelines in Apache Cocoon for
 display. Managed reindexing jobs with Java / Spring and Perl scripts.
-
-## Selected Volunteer Roles
-
-**Mentor, [Code The Dream](https://codethedream.org/), Remote (May 2022-present)**: Reviewed assignments and PRs covering basic HTML, CSS, JS, and command-line skills. Available for 1:1 mentoring sessions: explained developer tools and debugging strategies, and discussed interview preparation and IT careers.
 
 **Software Developer VISTA, Community Software Lab, Lowell, Massachusetts (June
 2005–December 2005)**: New features and bug fixes in Perl for
