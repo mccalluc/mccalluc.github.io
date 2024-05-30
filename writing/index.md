@@ -1,5 +1,3 @@
-# Writing
-
 ## Software documentation
 
 TODO
