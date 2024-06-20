@@ -1,3 +1,8 @@
+---
+layout: default
+title: Cooper-Frost-Austen
+---
+
 ## Welcome
 
 Welcome to the Cooper-Frost-Austen House, the oldest home in Cambridge. My name is ____ and I’ll be showing you around. We’ll be looking at some of the 17th architectural features of this building, talk about how it has evolved and adapted over time, and learn a bit about the Coopers and Frosts and Austens, a single family that lived and cared for this structure for over 200 years.
