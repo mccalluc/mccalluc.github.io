@@ -20,7 +20,13 @@ Perhaps a little flaky? Take your guess.
 A sense of poetry? Quite clearly, "no".<br>
 A work history will follow here below:
 
-The summer '23, a tour guide,<br>
+Two thousand twenty-five and twenty-four,<br>
+I found myself at Harvard, an encore?
+
+With tools for [differential privacy](https://docs.opendp.org)<br>
+we minimize the details others see.
+
+Part-time since '23, a tour guide,<br>
 providing context for the [midnight ride](https://www.oldnorth.com/).
 
 A six-month stint with Princeton's Library:<br>
@@ -50,8 +56,8 @@ called [JoVE](https://www.jove.com/), with PHP and SQL.
 It took a while, but paid a big tech debt,<br>
 and left it better than at the outset.
 
-2010, and yet a season more:<br>
-was back at ITA for an encore.
+Then going back as far as 2010<br>
+I found myself at ITA again.
 
 '09 at Penn I crafted a [display](http://dla.library.upenn.edu/dla/ead/index.html),<br>
 with xsl beneath to make it play.
