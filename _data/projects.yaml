@@ -1,7 +1,10 @@
 OpenDP:
   home: https://docs.opendp.org
   github: https://github.com/opendp/opendp/
-  about: A library for differential privacy (DP). Contributed to Python APIs, documentation, and testing.
+  about: |
+    Improved the testing, documentation, and usability of OpenDP, a software library that can help protect the privacy of individuals in aggregate statistics.
+    Reviewed PRs from the library architect and contributed to the Python and R APIs.
+    Restructured the documentation to address the needs of diverse audiences, and added tooling to ensure the documentation's internal consistency and completeness.
   tech:
     - python
     - rust
@@ -10,8 +13,10 @@ DP Wizard:
   home: https://pypi.org/project/dp_wizard/
   github: https://github.com/opendp/dp-wizard
   about: |
-    DP Wizard makes it easier to get started with differential privacy.
-    You can run DP Wizard locally and upload your own CSV, or use the cloud deployment and only provide column names to protect your private data. In either case, you'll be prompted to describe your privacy budget and the analysis you need. With that information, DP Wizard provides a Jupyter notebook which demonstrates how to use the OpenDP Library, a plain Python script, and text and CSV reports.
+    Designer and developer of DP Wizard, a tool that makes it easier to get started with differential privacy.
+    You can run DP Wizard locally and upload your own CSV, or use the cloud deployment and only provide column names to protect your private data.
+    In either case, you'll be prompted to describe your privacy budget and the analysis you need.
+    With that information, DP Wizard provides a Jupyter notebook which demonstrates how to use the OpenDP Library, a plain Python script, and text and CSV reports.
   tech:
     - python
     - shiny
@@ -20,7 +25,7 @@ DP Wizard:
 DP Deployments Registry Data:
   home: https://github.com/opendp/deployments-registry-data
   github: https://github.com/opendp/deployments-registry-data
-  about: Primary author of validation tools for the Differential Privacy Deployments Registry
+  about: Primary author of validation tools for the Differential Privacy Deployments Registry.
   tech:
     - python
     - jsonschema

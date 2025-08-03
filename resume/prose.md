@@ -3,7 +3,7 @@ layout: default
 title: Chuck McCallum
 ---
 
-- Full-stack web developer with experience guiding small teams to deliver tools for researchers in the sciences and humanities.
+- Full-stack developer with experience guiding small teams to deliver tools for researchers in the sciences and humanities.
 - Interested in providing clear documentation and interfaces for users,
 mentoring and supporting junior colleagues,
 and promoting software engineering best-practices across the organization.
@@ -11,12 +11,10 @@ and promoting software engineering best-practices across the organization.
 
 ## Work History
 
-**Software Developer, OpenDP, Harvard (October 2023-present)**: Based on a review of documentation sites for several comparable projects, and the identification of user groups with distinct information needs, proposed and carried through a reorganization of [docs.opendp.org](https://docs.opendp.org/). To support documentation of R in parallel with Python and Rust, implemented tabbed code examples. Enhanced code generation in Rust so that Python and R API references can include language-specific examples. Improved the robustness of CI tooling and the reliability of the build process by adding linting of Python and R code; test coverage, type checking, and pinned transitive dependencies in Python; and reference checking in documentation. Identified state-level demographers as a potential user community with strong opinions about differential privacy, and then conducted interviews and summarized findings.
+**Software Developer, OpenDP, Harvard (October 2023-present)**: Improved the testing, documentation, and usability of [OpenDP](https://docs.opendp.org/), a software library that can help protect the privacy of individuals in aggregate statistics. Reviewed PRs from the library architect and contributed to the Python and R APIs. Restructured the documentation to address the needs of diverse audiences, and added tooling to ensure the documentation's internal consistency and completeness. Designed and implemented [DP Wizard](https://github.com/opendp/dp-wizard), a tool for users who are new to differential privacy and OpenDP. Mentored interns, presented the team's work at conferences, and interviewed demographers to understand their needs.
 
-**Educator, Old North Illuminated (April 2023-present); Tour Guide, Historic New England (April 2023-September 2024); Volunteer, National Park Service 
-(April-August 2023)**: Splitting time between
-[Old North Church](https://www.oldnorth.com/about-old-north-illuminated/), the [Cooper-Frost-Austin House](https://www.historicnewengland.org/property/cooper-frost-austin-house/), and [Faneuil Hall](https://www.nps.gov/places/faneuil-hall.htm),
-welcomed diverse visitors and explained the history and continuing significance of these sites through scripted tours and spontaneous conversations. Researched and scripted a new talk on the [history of music at Old North Church](/writing/music), and an acknowledgement of the [history of Native Americans and African American at Cooper-Frost-Austin](/writing/cfa). Consistently enforced policies to ensure the safety of visitors and the preservation of the sites.
+**Educator, Old North Illuminated (April 2023-present); Tour Guide, Historic New England (April 2023-September 2024)**: At
+[Old North Church](https://www.oldnorth.com/about-old-north-illuminated/) and the [Cooper-Frost-Austin House](https://www.historicnewengland.org/property/cooper-frost-austin-house/), welcomed diverse visitors and explained the history and continuing significance of these sites through scripted tours and spontaneous conversations. Researched and presented on the [history of music at Old North Church](/writing/music), and composed an acknowledgement of the [history of Native Americans and African Americans at Cooper-Frost-Austin](/writing/cfa). Consistently enforced policies to ensure the safety of visitors and the preservation of the sites.
 
 **Research Data Storage Developer (October 2022-March 2023), Princeton University, Office of Information Technology**: Working with software developers in the university library, added new features to [pdc_describe](https://github.com/pulibrary/pdc_describe/pulls?q=is%3Apr+author%3Amccalluc), a cataloging tool for librarians, and initial configurations in [TigerData](https://github.com/pulibrary/tiger-data-app/pulls?q=is%3Apr+author%3Amccalluc), a set of data storage and management tools that are planned to be used across the university. In these Ruby-on-Rails applications, configured Vite, ESLint, and JS testing as part of CI.
 
