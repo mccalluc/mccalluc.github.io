@@ -3,7 +3,7 @@ layout: default
 title: Projects
 ---
 
-Projects where I was the only significant code contributor are _italicized_, but successful projects have gone well beyond what I could have done alone.
+Projects where I was the primary author are indicated, but the most successful projects have gone well beyond what I could have done alone.
 
 <table>
     {% for project in site.data.projects %}
