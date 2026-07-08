@@ -13,7 +13,7 @@ DP Wizard:
   home: https://pypi.org/project/dp_wizard/
   github: https://github.com/opendp/dp-wizard
   about: |
-    Designer and developer of DP Wizard, a tool that makes it easier to get started with differential privacy.
+    Primary author and designer of DP Wizard, a tool that makes it easier to get started with differential privacy.
     You can run DP Wizard locally and upload your own CSV, or use the cloud deployment and only provide column names to protect your private data.
     In either case, you'll be prompted to describe your privacy budget and the analysis you need.
     With that information, DP Wizard provides a Jupyter notebook which demonstrates how to use the OpenDP Library, a plain Python script, and text and CSV reports.
@@ -22,8 +22,27 @@ DP Wizard:
     - shiny
     - opendp
 
+dp-wizard-templates:
+  home: https://opendp.github.io/dp-wizard-templates
+  github: https://github.com/opendp/dp-wizard-templates
+  about: |
+    Primary author DP Wizard Templates, a package which lets you use syntactically valid Python code as a template. Templates can be filled and composed to generate entire notebooks.
+  tech:
+    - python
+    - notebooks
+
+polars-to-ibis:
+  home: https://pypi.org/project/polars_to_ibis/
+  github: https://github.com/opendp/polars-to-ibis
+  about: |
+    Primary author of polars-to-ibis, a python package which allows queries to be constructed in Polars and then executed on arbitrary backends using Ibis.
+  tech:
+    - python
+    - polars
+    - ibis
+
 DP Deployments Registry Data:
-  home: https://github.com/opendp/deployments-registry-data
+  home: https://registry.opendp.org/
   github: https://github.com/opendp/deployments-registry-data
   about: Primary author of validation tools for the Differential Privacy Deployments Registry.
   tech:
@@ -44,7 +63,7 @@ HuBMAP Portal:
 HuBMAP Ingest Validation Tools:
   home: https://github.com/hubmapconsortium/ingest-validation-tools
   github: https://github.com/hubmapconsortium/ingest-validation-tools
-  about: Data submission guidelines, and tools to check that submissions adhere to those guidelines. Listened to data curators, pipeline authors, and lab scientists, and delivered scripts and a schema language that is used to validate submissions and generate documentation.
+  about: Primary author of data submission guidelines, and tools to check that submissions adhere to those guidelines. Listened to data curators, pipeline authors, and lab scientists, and delivered scripts and a schema language that is used to validate submissions and generate documentation.
   tech:
     - python
     - tableschema
@@ -52,7 +71,7 @@ HuBMAP Ingest Validation Tools:
 tableschema-to-template:
   home: https://pypi.org/project/tableschema-to-template/
   github: https://github.com/hubmapconsortium/tableschema-to-template
-  about: Generate Excel data entry templates from Tableschema definitions. A small reusable module factored out of the larger ingest-validation-tools.
+  about: Primary author of tableschema-to-template, which generates Excel data entry templates from Tableschema definitions. A small reusable module factored out of the larger ingest-validation-tools.
   tech:
     - python
     - tableschema
@@ -68,7 +87,7 @@ Vitessce:
 heatmap-scatter-dash:
   home: https://github.com/refinery-platform/heatmap-scatter-dash
   github: https://github.com/refinery-platform/heatmap-scatter-dash
-  about: Simple heatmap + scatterplot using Plotly Dash.
+  about: Primary author of a simple heatmap + scatterplot application using Plotly Dash.
   tech:
     - python
     - docker
@@ -77,7 +96,7 @@ heatmap-scatter-dash:
 django-docker-engine:
   home: https://pypi.org/project/django-docker-engine/
   github: https://github.com/refinery-platform/django_docker_engine/
-  about: Docker engine wrapper + proxy server for containerized visualizations in Django. Generic visualization launch architecture, for which heatmap-scatter-dash was a demonstration client.
+  about: Primary author of Docker engine wrapper + proxy server for containerized visualizations in Django. Generic visualization launch architecture, for which heatmap-scatter-dash was a demonstration client.
   tech:
     - python
     - django
@@ -96,7 +115,7 @@ American Archive of Public Broadcasting:
 CMLess:
   home: https://rubygems.org/gems/cmless/
   github: https://github.com/WGBH-MLA/cmless
-  about: Rails gem to manage a site’s static content as markdown on github. Proposed and got buy-in for the idea that rather than maintaining a separate CMS, static pages on the American Archive of Public Broadcasting could be based on markdown in the repo, with frequent redeployments.
+  about: Primary author of Rails gem to manage a site’s static content as markdown on github. Proposed and got buy-in for the idea that rather than maintaining a separate CMS, static pages on the American Archive of Public Broadcasting could be based on markdown in the repo, with frequent redeployments.
   tech:
     - ruby
     - gem
@@ -104,14 +123,14 @@ CMLess:
 FP-DataEntry:
   home: https://github.com/mccalluc/FP-DataEntry
   github: https://github.com/mccalluc/FP-DataEntry
-  about: Server + browser bookmarklet for copy cataloging in natural history collections. The Filtered Push project had proposed a distributed network for data-sharing across natural history collections. When that failed to engage with users, proposed and implemented a small tool to support interactive screen scraping and data alignment.
+  about: Primary author of server + browser bookmarklet for copy cataloging in natural history collections. The Filtered Push project had proposed a distributed network for data-sharing across natural history collections. When that failed to engage with users, proposed and implemented a small tool to support interactive screen scraping and data alignment.
   tech:
     - java
 
 concertina_helper:
   home: https://mccalluc.github.io/concertina-helper
   github: https://github.com/mccalluc/concertina-helper
-  about: Python script and supporting API to find  fingerings on bisonoric concertinas
+  about: (Personal project) Python script and supporting API to find fingerings on bisonoric concertinas
   tech:
     - python
     - A*
@@ -120,7 +139,7 @@ concertina_helper:
 walkle:
   home: https://mccalluc.github.io/walkle/
   github: https://github.com/mccalluc/walkle
-  about: Like wordle, but for walks.
+  about: (Personal project) Like wordle, but for walks.
   tech:
     - javascript
     - vue
@@ -128,7 +147,7 @@ walkle:
 spiro-font:
   home: https://mccalluc.github.io/spiro-font/
   github: https://github.com/mccalluc/spiro-font
-  about: Font construction in the browser
+  about: (Personal project) Font construction in the browser
   tech:
     - javascript
     - vue
@@ -136,13 +155,13 @@ spiro-font:
 dagsheet:
   home: http://mccalluc.github.io/dagsheet
   github: https://github.com/mccalluc/dagsheet
-  about: A toy graphical functional programming environment
+  about: (Personal project) A toy graphical functional programming environment
   tech:
     - javascript
 
 yajt:
   home: http://mccalluc.github.io/yajt
   github: https://github.com/mccalluc/yajt
-  about: Video processing and sound generation in the browser
+  about: (Personal project) Video processing and sound generation in the browser
   tech:
     - javascript
